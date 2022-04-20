@@ -1,0 +1,44 @@
+body {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.half-width {
+    margin: 3%;
+}
+
+.top-banner {
+    display: flex;
+    align-items: center;
+}
+
+.banner-left h1 {
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: 80px;
+}
+
+.banner-left p {
+    font-size: 20px;
+}
+
+.orange-color {
+    color: #ff8000;
+}
+
+.stright-line {
+    border-left: 6px solid #FF5959;
+    border-radius: 3px;
+}
+
+.btn-button {
+    padding: 20px 40px;
+    background-color: #FF5959;
+    border: none;
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+    border-radius: 7px;
+}
+
+.top-banner img {
+    width: 600px;
+}
