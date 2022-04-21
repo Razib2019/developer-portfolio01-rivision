@@ -2,26 +2,18 @@ body {
     font-family: 'Ubuntu', sans-serif;
 }
 
+.orange-color {
+    color: #ff8000;
+}
+
 .half-width {
     margin: 3%;
 }
 
+/* First Section */
 .top-banner {
     display: flex;
     align-items: center;
-}
-
-.banner-left h1 {
-    font-family: 'Merriweather Sans', sans-serif;
-    font-size: 80px;
-}
-
-.banner-left p {
-    font-size: 20px;
-}
-
-.orange-color {
-    color: #ff8000;
 }
 
 .stright-line {
@@ -29,16 +21,100 @@ body {
     border-radius: 3px;
 }
 
+.banner-left h1 {
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: 80px;
+}
+
+.paragraph-text {
+    font-size: 20px;
+    margin-bottom: 50px;
+}
+
 .btn-button {
     padding: 20px 40px;
     background-color: #FF5959;
     border: none;
     color: white;
+    text-decoration: none;
     font-size: 18px;
-    font-weight: 700;
+    font-weight: 600;
     border-radius: 7px;
+}
+
+.scroll-text {
+    font-size: 20px;
+    margin-top: 50px;
 }
 
 .top-banner img {
     width: 600px;
+}
+
+/* Second Section */
+.mission-text {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 80px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.card-section {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.mission-card {
+    padding: 20px;
+    border-radius: 30px;
+    background-color: #EDF5F6;
+}
+
+.mission-card img {
+    width: 200px;
+}
+
+.mission-card h2 {
+    font-size: 50px;
+}
+
+.mission-card p {
+    font-size: 20px;
+}
+
+.vission-card {
+    padding: 20px;
+    border-radius: 30px;
+    background-color: #FFEEEE;
+}
+
+.vission-card img {
+    width: 200px;
+}
+
+.vission-card h2 {
+    font-size: 50px;
+}
+
+.vission-card p {
+    font-size: 20px;
+}
+
+.goals-card {
+    padding: 20px;
+    border-radius: 30px;
+    background-color: #FFF4D6;
+}
+
+.goals-card img {
+    width: 200px;
+}
+
+.goals-card h2 {
+    font-size: 50px;
+}
+
+.goals-card p {
+    font-size: 20px;
 }
