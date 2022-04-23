@@ -144,3 +144,29 @@ body {
     font-size: 20px;
     margin-bottom: 50px;
 }
+
+/* Fourth Section */
+.community {
+    display: flex;
+    align-items: center;
+    background-image: url(./images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-size: 200px;
+    background-position: right;
+    background-position-y: bottom;
+}
+
+.community img {
+    width: 600px;
+    height: 600px;
+}
+
+.community-left h1 {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 50px;
+}
+
+.community-left p {
+    font-size: 20px;
+    margin-bottom: 50px;
+}
