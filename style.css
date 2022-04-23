@@ -118,3 +118,29 @@ body {
 .goals-card p {
     font-size: 20px;
 }
+
+/* Third Section */
+.development {
+    display: flex;
+    align-items: center;
+    background-image: url(./images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-size: 300px;
+    background-position: left;
+}
+
+.development img {
+    width: 600px;
+    height: 600px;
+    margin-left: 50px;
+}
+
+.development-right h1 {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 50px;
+}
+
+.development-right p {
+    font-size: 20px;
+    margin-bottom: 50px;
+}
