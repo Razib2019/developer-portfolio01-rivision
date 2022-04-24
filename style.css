@@ -1,9 +1,14 @@
 body {
     font-family: 'Ubuntu', sans-serif;
+    margin: 0 auto;
 }
 
 .orange-color {
     color: #ff8000;
+}
+
+.red-color {
+    color: #ff5959;
 }
 
 .half-width {
@@ -169,4 +174,58 @@ body {
 .community-left p {
     font-size: 20px;
     margin-bottom: 50px;
+}
+
+/* fifth section */
+.application {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 80px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.go-corona {
+    display: flex;
+    background-image: url(./images/shapes/shape-3.png);
+    background-repeat: no-repeat;
+    background-size: 120px;
+    background-position-x: 230px;
+}
+
+.go-corona img {
+    width: 300px;
+    margin-left: 250px;
+    margin-right: 100px;
+}
+
+.stay-safe h2 {
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: 50px;
+}
+
+.stay-safe p {
+    font-size: 20px;
+    margin-bottom: 50px;
+}
+
+/* Footer Section */
+footer {
+    background-color: black;
+    height: 130px;
+}
+
+footer h1 {
+    font-family: 'Lobster', cursive;
+    font-size: 35px;
+    font-weight: 300;
+    text-align: center;
+    color: white;
+    padding: 20px;
+}
+
+footer p {
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    margin-top: -25px;
 }
